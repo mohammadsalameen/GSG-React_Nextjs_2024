@@ -1,0 +1,24 @@
+.std-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.std-wrapper h1{
+    
+    text-shadow: 4px 1px 4px #00f2ff;
+}
+.Result{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.921);
+}
+.result-btn, .input-btn{
+    color: skyblue;
+    font-size: 22px;
+}

@@ -1,0 +1,7 @@
+.keypad{
+    display: flex;
+    flex-wrap: wrap ;   
+    width: 220px;
+    gap: 4px;
+    
+}
