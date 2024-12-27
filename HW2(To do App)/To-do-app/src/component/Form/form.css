@@ -1,0 +1,29 @@
+.form-wrapper{
+    margin:  20px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.form-wrapper .input-urgent label{
+    margin: 10px;
+}
+
+.form-wrapper .input{
+    border: 2px solid #27ac27;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+}
+.form-wrapper .addTodo{
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #27ac27;
+    width: 200px;
+    height: 25px;
+    cursor: pointer;
+}
+.form-wrapper .addTodo:hover{
+    opacity: 0.7;
+}
